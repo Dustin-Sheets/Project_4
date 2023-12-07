@@ -1,0 +1,57 @@
+,Year,State,"Cases per 100,000",Gender,Ethnicity,Y_lat,X_lon
+531,2019,Alaska,161.9,Overall,Hispanic,64.3173,-152.571
+1755,2019,Alabama,112.1,Overall,Hispanic,32.7949,-86.8267
+3123,2019,Arkansas,162.2,Overall,Hispanic,34.8982,-92.434
+3159,2019,American Samoa,,Overall,Hispanic,-14.2766,-170.367
+3447,2019,Arizona,220.7,Overall,Hispanic,34.2921,-111.664
+4509,2019,California,221.6,Overall,Hispanic,37.2414,-119.601
+5679,2019,Colorado,218.8,Overall,Hispanic,38.997,-105.549
+5841,2019,Connecticut,191.6,Overall,Hispanic,41.6179,-72.7254
+5877,2019,District of Columbia,207.9,Overall,Hispanic,38.9005,-77.0159
+5949,2019,Delaware,145.2,Overall,Hispanic,38.9952,-75.5014
+7173,2019,Florida,222.1,Overall,Hispanic,28.6588,-82.497
+10053,2019,Georgia,131.6,Overall,Hispanic,32.6549,-83.4547
+10089,2019,Guam,,Overall,Hispanic,13.4431,144.777
+10197,2019,Hawaii,436.0,Overall,Hispanic,20.2408,-156.326
+11997,2019,Iowa,146.9,Overall,Hispanic,42.076,-93.5022
+12807,2019,Idaho,158.4,Overall,Hispanic,44.3858,-114.661
+14661,2019,Illinois,178.5,Overall,Hispanic,40.0644,-89.2034
+16335,2019,Indiana,192.1,Overall,Hispanic,39.9128,-86.2757
+18243,2019,Kansas,192.0,Overall,Hispanic,38.4828,-98.384
+20421,2019,Kentucky,122.5,Overall,Hispanic,37.5266,-85.29
+21591,2019,Louisiana,174.2,Overall,Hispanic,31.0964,-92.0302
+21861,2019,Massachusetts,157.5,Overall,Hispanic,42.2573,-71.8024
+22311,2019,Maryland,142.2,Overall,Hispanic,39.0648,-76.82
+22617,2019,Maine,,Overall,Hispanic,45.3889,-69.2349
+24129,2019,Michigan,244.8,Overall,Hispanic,44.3371,-85.4387
+25713,2019,Minnesota,108.5,Overall,Hispanic,46.3159,-94.3068
+27801,2019,Missouri,158.0,Overall,Hispanic,38.3641,-92.4798
+27837,2019,Northern Mariana Islands,,Overall,Hispanic,15.8818,145.601
+29331,2019,Mississippi,151.3,Overall,Hispanic,32.7577,-89.6646
+30357,2019,Montana,234.0,Overall,Hispanic,47.0332,-109.653
+32175,2019,North Carolina,129.9,Overall,Hispanic,35.5475,-79.4019
+33147,2019,North Dakota,206.8,Overall,Hispanic,47.4471,-100.47
+34839,2019,Nebraska,129.0,Overall,Hispanic,41.5228,-99.8085
+35037,2019,New Hampshire,91.9,Overall,Hispanic,43.6834,-71.5794
+35433,2019,New Jersey,198.1,Overall,Hispanic,40.1987,-74.6768
+36045,2019,New Mexico,271.2,Overall,Hispanic,34.4228,-106.102
+36369,2019,Nevada,224.2,Overall,Hispanic,39.352,-116.65
+37503,2019,New York,271.9,Overall,Hispanic,42.9465,-75.512
+39105,2019,Ohio,177.9,Overall,Hispanic,40.2882,-82.7866
+40509,2019,Oklahoma,249.0,Overall,Hispanic,35.5848,-97.5098
+41175,2019,Oregon,132.9,Overall,Hispanic,43.9313,-120.554
+42399,2019,Pennsylvania,207.2,Overall,Hispanic,40.8749,-77.8022
+43821,2019,Puerto Rico,,Overall,Hispanic,18.2214,-66.4654
+43929,2019,Rhode Island,142.7,Overall,Hispanic,41.682,-71.5617
+44775,2019,South Carolina,148.1,Overall,Hispanic,33.9187,-80.9014
+45981,2019,South Dakota,119.7,Overall,Hispanic,44.4332,-100.236
+47709,2019,Tennessee,132.4,Overall,Hispanic,35.8465,-86.3351
+52299,2019,Texas,261.0,Overall,Hispanic,31.4906,-99.3517
+52857,2019,Utah,163.6,Overall,Hispanic,39.3231,-111.676
+55269,2019,Virginia,126.8,Overall,Hispanic,37.5188,-78.8507
+55341,2019,Virgin Islands of the U.S.,,Overall,Hispanic,17.9473,-64.8015
+55611,2019,Vermont,,Overall,Hispanic,44.0733,-72.661
+56331,2019,Washington,173.9,Overall,Hispanic,47.378,-120.428
+57645,2019,Wisconsin,180.8,Overall,Hispanic,44.6333,-90.0068
+58653,2019,West Virginia,79.6,Overall,Hispanic,38.6411,-80.6147
+59085,2019,Wyoming,194.9,Overall,Hispanic,42.9984,-107.552

@@ -1,0 +1,57 @@
+,Year,State,Class,Topic,Data_Value,Data_Value_Unit,Data_Value_Type,Gender,Ethnicity,Y_lat,X_lon
+525,2019,Alaska,Cardiovascular Diseases,Heart Disease Mortality,239.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,64.3173,-152.571
+1749,2019,Alabama,Cardiovascular Diseases,Heart Disease Mortality,433.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,32.7949,-86.8267
+3117,2019,Arkansas,Cardiovascular Diseases,Heart Disease Mortality,435.2,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,34.8982,-92.434
+3153,2019,American Samoa,Cardiovascular Diseases,Heart Disease Mortality,,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,-14.2766,-170.367
+3441,2019,Arizona,Cardiovascular Diseases,Heart Disease Mortality,277.4,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,34.2921,-111.664
+4503,2019,California,Cardiovascular Diseases,Heart Disease Mortality,306.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,37.2414,-119.601
+5673,2019,Colorado,Cardiovascular Diseases,Heart Disease Mortality,249.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.997,-105.549
+5835,2019,Connecticut,Cardiovascular Diseases,Heart Disease Mortality,278.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,41.6179,-72.7254
+5871,2019,District of Columbia,Cardiovascular Diseases,Heart Disease Mortality,164.8,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.9005,-77.0159
+5943,2019,Delaware,Cardiovascular Diseases,Heart Disease Mortality,310.8,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.9952,-75.5014
+7167,2019,Florida,Cardiovascular Diseases,Heart Disease Mortality,285.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,28.6588,-82.497
+10047,2019,Georgia,Cardiovascular Diseases,Heart Disease Mortality,350.8,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,32.6549,-83.4547
+10083,2019,Guam,Cardiovascular Diseases,Heart Disease Mortality,,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,13.4431,144.777
+10191,2019,Hawaii,Cardiovascular Diseases,Heart Disease Mortality,253.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,20.2408,-156.326
+11991,2019,Iowa,Cardiovascular Diseases,Heart Disease Mortality,333.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,42.076,-93.5022
+12801,2019,Idaho,Cardiovascular Diseases,Heart Disease Mortality,306.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,44.3858,-114.661
+14655,2019,Illinois,Cardiovascular Diseases,Heart Disease Mortality,323.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,40.0644,-89.2034
+16329,2019,Indiana,Cardiovascular Diseases,Heart Disease Mortality,352.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,39.9128,-86.2757
+18237,2019,Kansas,Cardiovascular Diseases,Heart Disease Mortality,319.7,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.4828,-98.384
+20415,2019,Kentucky,Cardiovascular Diseases,Heart Disease Mortality,389.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,37.5266,-85.29
+21585,2019,Louisiana,Cardiovascular Diseases,Heart Disease Mortality,401.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,31.0964,-92.0302
+21855,2019,Massachusetts,Cardiovascular Diseases,Heart Disease Mortality,260.4,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,42.2573,-71.8024
+22305,2019,Maryland,Cardiovascular Diseases,Heart Disease Mortality,315.6,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,39.0648,-76.82
+22611,2019,Maine,Cardiovascular Diseases,Heart Disease Mortality,284.2,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,45.3889,-69.2349
+24123,2019,Michigan,Cardiovascular Diseases,Heart Disease Mortality,369.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,44.3371,-85.4387
+25707,2019,Minnesota,Cardiovascular Diseases,Heart Disease Mortality,229.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,46.3159,-94.3068
+27795,2019,Missouri,Cardiovascular Diseases,Heart Disease Mortality,365.4,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.3641,-92.4798
+27831,2019,Northern Mariana Islands,Cardiovascular Diseases,Heart Disease Mortality,,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,15.8818,145.601
+29325,2019,Mississippi,Cardiovascular Diseases,Heart Disease Mortality,429.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,32.7577,-89.6646
+30351,2019,Montana,Cardiovascular Diseases,Heart Disease Mortality,305.6,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,47.0332,-109.653
+32169,2019,North Carolina,Cardiovascular Diseases,Heart Disease Mortality,297.7,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,35.5475,-79.4019
+33141,2019,North Dakota,Cardiovascular Diseases,Heart Disease Mortality,270.9,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,47.4471,-100.47
+34833,2019,Nebraska,Cardiovascular Diseases,Heart Disease Mortality,285.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,41.5228,-99.8085
+35031,2019,New Hampshire,Cardiovascular Diseases,Heart Disease Mortality,291.8,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,43.6834,-71.5794
+35427,2019,New Jersey,Cardiovascular Diseases,Heart Disease Mortality,334.2,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,40.1987,-74.6768
+36039,2019,New Mexico,Cardiovascular Diseases,Heart Disease Mortality,318.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,34.4228,-106.102
+36363,2019,Nevada,Cardiovascular Diseases,Heart Disease Mortality,418.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,39.352,-116.65
+37497,2019,New York,Cardiovascular Diseases,Heart Disease Mortality,339.7,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,42.9465,-75.512
+39099,2019,Ohio,Cardiovascular Diseases,Heart Disease Mortality,371.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,40.2882,-82.7866
+40503,2019,Oklahoma,Cardiovascular Diseases,Heart Disease Mortality,458.2,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,35.5848,-97.5098
+41169,2019,Oregon,Cardiovascular Diseases,Heart Disease Mortality,264.4,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,43.9313,-120.554
+42393,2019,Pennsylvania,Cardiovascular Diseases,Heart Disease Mortality,335.3,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,40.8749,-77.8022
+43815,2019,Puerto Rico,Cardiovascular Diseases,Heart Disease Mortality,,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,18.2214,-66.4654
+43923,2019,Rhode Island,Cardiovascular Diseases,Heart Disease Mortality,318.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,41.682,-71.5617
+44769,2019,South Carolina,Cardiovascular Diseases,Heart Disease Mortality,312.6,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,33.9187,-80.9014
+45975,2019,South Dakota,Cardiovascular Diseases,Heart Disease Mortality,293.6,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,44.4332,-100.236
+47703,2019,Tennessee,Cardiovascular Diseases,Heart Disease Mortality,396.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,35.8465,-86.3351
+52293,2019,Texas,Cardiovascular Diseases,Heart Disease Mortality,350.0,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,31.4906,-99.3517
+52851,2019,Utah,Cardiovascular Diseases,Heart Disease Mortality,300.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,39.3231,-111.676
+55263,2019,Virginia,Cardiovascular Diseases,Heart Disease Mortality,291.5,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,37.5188,-78.8507
+55335,2019,Virgin Islands of the U.S.,Cardiovascular Diseases,Heart Disease Mortality,,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,17.9473,-64.8015
+55605,2019,Vermont,Cardiovascular Diseases,Heart Disease Mortality,308.4,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,44.0733,-72.661
+56325,2019,Washington,Cardiovascular Diseases,Heart Disease Mortality,272.9,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,47.378,-120.428
+57639,2019,Wisconsin,Cardiovascular Diseases,Heart Disease Mortality,305.1,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,44.6333,-90.0068
+58647,2019,West Virginia,Cardiovascular Diseases,Heart Disease Mortality,386.7,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,38.6411,-80.6147
+59079,2019,Wyoming,Cardiovascular Diseases,Heart Disease Mortality,306.9,"per 100,000 population","Age-adjusted, 3-year Average Rate",Overall,White,42.9984,-107.552

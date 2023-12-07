@@ -1,0 +1,57 @@
+,Year,State,"Cases per 100,000",Gender,Ethnicity,Y_lat,X_lon
+528,2019,Alaska,300.2,Overall,Black,64.3173,-152.571
+1752,2019,Alabama,490.0,Overall,Black,32.7949,-86.8267
+3120,2019,Arkansas,472.4,Overall,Black,34.8982,-92.434
+3156,2019,American Samoa,,Overall,Black,-14.2766,-170.367
+3444,2019,Arizona,347.0,Overall,Black,34.2921,-111.664
+4506,2019,California,423.7,Overall,Black,37.2414,-119.601
+5676,2019,Colorado,331.3,Overall,Black,38.997,-105.549
+5838,2019,Connecticut,313.2,Overall,Black,41.6179,-72.7254
+5874,2019,District of Columbia,501.3,Overall,Black,38.9005,-77.0159
+5946,2019,Delaware,321.1,Overall,Black,38.9952,-75.5014
+7170,2019,Florida,338.1,Overall,Black,28.6588,-82.497
+10050,2019,Georgia,379.0,Overall,Black,32.6549,-83.4547
+10086,2019,Guam,,Overall,Black,13.4431,144.777
+10194,2019,Hawaii,243.2,Overall,Black,20.2408,-156.326
+11994,2019,Iowa,433.9,Overall,Black,42.076,-93.5022
+12804,2019,Idaho,195.4,Overall,Black,44.3858,-114.661
+14658,2019,Illinois,451.4,Overall,Black,40.0644,-89.2034
+16332,2019,Indiana,420.5,Overall,Black,39.9128,-86.2757
+18240,2019,Kansas,447.0,Overall,Black,38.4828,-98.384
+20418,2019,Kentucky,438.0,Overall,Black,37.5266,-85.29
+21588,2019,Louisiana,476.4,Overall,Black,31.0964,-92.0302
+21858,2019,Massachusetts,237.6,Overall,Black,42.2573,-71.8024
+22308,2019,Maryland,373.1,Overall,Black,39.0648,-76.82
+22614,2019,Maine,242.7,Overall,Black,45.3889,-69.2349
+24126,2019,Michigan,542.3,Overall,Black,44.3371,-85.4387
+25710,2019,Minnesota,235.2,Overall,Black,46.3159,-94.3068
+27798,2019,Missouri,470.9,Overall,Black,38.3641,-92.4798
+27834,2019,Northern Mariana Islands,,Overall,Black,15.8818,145.601
+29328,2019,Mississippi,494.0,Overall,Black,32.7577,-89.6646
+30354,2019,Montana,,Overall,Black,47.0332,-109.653
+32172,2019,North Carolina,347.9,Overall,Black,35.5475,-79.4019
+33144,2019,North Dakota,,Overall,Black,47.4471,-100.47
+34836,2019,Nebraska,318.3,Overall,Black,41.5228,-99.8085
+35034,2019,New Hampshire,202.4,Overall,Black,43.6834,-71.5794
+35430,2019,New Jersey,392.3,Overall,Black,40.1987,-74.6768
+36042,2019,New Mexico,414.1,Overall,Black,34.4228,-106.102
+36366,2019,Nevada,516.4,Overall,Black,39.352,-116.65
+37500,2019,New York,455.8,Overall,Black,42.9465,-75.512
+39102,2019,Ohio,442.8,Overall,Black,40.2882,-82.7866
+40506,2019,Oklahoma,551.8,Overall,Black,35.5848,-97.5098
+41172,2019,Oregon,286.5,Overall,Black,43.9313,-120.554
+42396,2019,Pennsylvania,457.6,Overall,Black,40.8749,-77.8022
+43818,2019,Puerto Rico,,Overall,Black,18.2214,-66.4654
+43926,2019,Rhode Island,247.8,Overall,Black,41.682,-71.5617
+44772,2019,South Carolina,384.5,Overall,Black,33.9187,-80.9014
+45978,2019,South Dakota,326.3,Overall,Black,44.4332,-100.236
+47706,2019,Tennessee,458.8,Overall,Black,35.8465,-86.3351
+52296,2019,Texas,428.4,Overall,Black,31.4906,-99.3517
+52854,2019,Utah,290.6,Overall,Black,39.3231,-111.676
+55266,2019,Virginia,365.6,Overall,Black,37.5188,-78.8507
+55338,2019,Virgin Islands of the U.S.,,Overall,Black,17.9473,-64.8015
+55608,2019,Vermont,245.3,Overall,Black,44.0733,-72.661
+56328,2019,Washington,325.2,Overall,Black,47.378,-120.428
+57642,2019,Wisconsin,464.1,Overall,Black,44.6333,-90.0068
+58650,2019,West Virginia,366.0,Overall,Black,38.6411,-80.6147
+59082,2019,Wyoming,281.0,Overall,Black,42.9984,-107.552

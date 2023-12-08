@@ -35,7 +35,132 @@
         <h1>CardioGuard: Intelligent Analytics for Heart Disease Prevention</h1>
     </header>
 
-    <main>
+   
+   
+   
+    <!-- code for imputing data -->
+<!-- ***************************************************************************-->
+<div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you have high blood pressure?</h5>
+          <select id="selDataset1" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you have high cholesterol?</h5>
+          <select id="selDataset2" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Have you had your cholesterol checked?</h5>
+          <select id="selDataset3" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>What is your BMI?</h5>
+          <select id="selDataset4" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you smoke?</h5>
+          <select id="selDataset5" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Have you ever had a stroke?</h5>
+          <select id="selDataset6" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you have diabetes?</h5>
+          <select id="selDataset7" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Are you physicaly active?</h5>
+          <select id="selDataset8" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you regularly eat fruits?</h5>
+          <select id="selDataset9" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you regularly eat vegetables?</h5>
+          <select id="selDataset10" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you drink alcohol?</h5>
+          <select id="selDataset11" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you get checkups from a doctor regularly?</h5>
+          <select id="selDataset12" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Have you ever not seen a doctor because of cost?</h5>
+          <select id="selDataset13" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>Do you have difficulty walking?</h5>
+          <select id="selDataset14" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+
+      <div class="col-md-2">
+        <div class="well">
+          <h5>What sex are you?</h5>
+          <select id="selDataset15" onchange="optionChanged(this.value)"></select>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="dustinsjs.js"></script>
+<!-- *************************************************************************** -->
+
+
+
+<main>
         <div class="card">
             <h2>Stats</h2>
             <p>***** <span id="****"></span></p>

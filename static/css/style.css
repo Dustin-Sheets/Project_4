@@ -1,0 +1,29 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body{
+    background-color: #f4f4f4;
+}
+
+.header {
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 50px;
+    background-color: #333;
+    color: #ff0606;
+    padding: 1em;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin-bottom: 20px;
+}

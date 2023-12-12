@@ -9,10 +9,11 @@
 
     </head>
 
-    <body>
+    <body style="background-color:powderblue;">
 
         <div class="header">
-          <img src="https://newsinhealth.nih.gov/sites/nihNIH/files/styles/featured_media_breakpoint-large/public/2021/August/aug-2021-capsule2-drawing-heart.jpg?itok=A3dTXb5H" alt="logo" />
+          <img src="..\human_heart.png" alt="logo" /> 
+          <!--<img src="https://newsinhealth.nih.gov/sites/nihNIH/files/styles/featured_media_breakpoint-large/public/2021/August/aug-2021-capsule2-drawing-heart.jpg?itok=A3dTXb5H" alt="logo" /> -->
           <h1>  CardioGuard: Intelligent Analytics for Heart Disease Prevention</h1>
         </div>
 
@@ -23,7 +24,7 @@
               <h2>Heart Diseas in the South.</h2>
               <p>While heart diease runs rampant in the United States as a whole, it is most common in the South. On average, the Southern-most states are at a higher risk of high blood pressure, high cholesterol, and diabetes than the rest of the United States. We can contribute the increased risk to factors such as smoking, poor diet, lack of exercise, and obesity.<span id="****"></span></p>
               <h2>The different types of heart disease</h2>
-              <img src="UDMI_Cardiovascular-Disease.png" alt="Dashboard Image" style="max-width: 50%; height: auto;">
+              <img src= "..\Cardiovascular-Disease.png"alt="Dashboard Image">
               <ul>
                   <h4>Coronary Artery Disease</h4>
                       <p>Coronary Artery Diseas is when fat deposits, also known as plaque, buildup in the walls of arteries that supply blood to the heart. Over time, this causes the arteries to narrow limiting the flow of blood to the heart.</p>
@@ -48,129 +49,153 @@
    
           <!-- code for imputing data -->
       <!-- ***************************************************************************-->
-      <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you have high blood pressure?</h5>
-                <select id="selDataset1" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you have high cholesterol?</h5>
-                <select id="selDataset2" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Have you had your cholesterol checked?</h5>
-                <select id="selDataset3" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>What is your BMI?</h5>
-                <select id="selDataset4" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you smoke?</h5>
-                <select id="selDataset5" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Have you ever had a stroke?</h5>
-                <select id="selDataset6" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
+      
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have high blood pressure?</h5>
+            <select id="selDataset1" onchange="optionChanged(this.value)"></select>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you have diabetes?</h5>
-                <select id="selDataset7" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
+      </div>
 
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Are you physicaly active?</h5>
-                <select id="selDataset8" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you regularly eat fruits?</h5>
-                <select id="selDataset9" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you regularly eat vegetables?</h5>
-                <select id="selDataset10" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you drink alcohol?</h5>
-                <select id="selDataset11" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you get checkups from a doctor regularly?</h5>
-                <select id="selDataset12" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have high cholesterol?</h5>
+            <select id="selDataset2" onchange="optionChanged(this.value)"></select>
           </div>
         </div>
-        <div class="container">
-          <div class="row">
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Have you ever not seen a doctor because of cost?</h5>
-                <select id="selDataset13" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
+      </div>
 
-            <div class="col-md-2">
-              <div class="well">
-                <h5>Do you have difficulty walking?</h5>
-                <select id="selDataset14" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>What sex are you?</h5>
-                <select id="selDataset15" onchange="optionChanged(this.value)"></select>
-              </div>
-            </div>
-
-            <div class="col-md-2">
-              <div class="well">
-                <h5>What is your age?</h5>
-                <input type="number" id="selDataset16" name="userAge" min="0" max="120" onchange="optionChanged(this.value)">
-              </div>
-
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you had your cholesterol checked?</h5>
+            <select id="selDataset3" onchange="optionChanged(this.value)"></select>
           </div>
         </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What is your BMI?</h5>
+            <select id="selDataset4" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you smoke?</h5>
+            <select id="selDataset5" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you ever had a stroke?</h5>
+            <select id="selDataset6" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+    
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have diabetes?</h5>
+            <select id="selDataset7" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Are you physicaly active?</h5>
+            <select id="selDataset8" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you regularly eat fruits?</h5>
+            <select id="selDataset9" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you regularly eat vegetables?</h5>
+            <select id="selDataset10" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you drink alcohol?</h5>
+            <select id="selDataset11" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you get checkups from a doctor regularly?</h5>
+            <select id="selDataset12" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you ever not seen a doctor because of cost?</h5>
+            <select id="selDataset13" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have difficulty walking?</h5>
+            <select id="selDataset14" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What sex are you?</h5>
+            <select id="selDataset15" onchange="optionChanged(this.value)"></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What is your age?</h5>
+            <input type="number" id="selDataset16" name="userAge" min="0" max="120" onchange="optionChanged(this.value)">
+          </div>
+        </div>
+      </div>
+    
         <script src="https://d3js.org/d3.v7.min.js"></script>
-        <script src="dustinsjs.js"></script>
+        <script src="../static/dustinsjs.js"></script>
       <!-- *************************************************************************** -->
 
 

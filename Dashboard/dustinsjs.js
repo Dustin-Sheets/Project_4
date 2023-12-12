@@ -1,7 +1,7 @@
 TF = {"TrueFalse": ["Yes", "No"]}
 MF = {"MaleFemale": ["Male","Female"]}
-BMI = {"BMI":['<18','18','20','22','24','26','28',
-'30','32','34','36','38','40','42','44','>44']}
+BMI = {"BMI":['18','20','22','24','26','28',
+'30','32','34','36','38','40','42','44']}
 
     // High Blood Pressure?
     for (i=0;i<2; i++){
@@ -134,19 +134,68 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
 var elements = document.querySelectorAll("[id^=selDataset]");
 
 
+
+
+
+
+
 // Handle changes differietieting between dropdowns
 elements.forEach(function(elem) {
     elem.onchange = optionChanged;
 });
+
 
 function optionChanged(){
     var elementsArr = []
     if (elements.length > 0) {
         for (let i = 0; i < elements.length; i++) {
             const element = elements[i];
-            elementsArr.push(element.value);
+            let value = element.value;
+            
+            // yes/no to 1/0
+            if (value === "Yes") value = 1;
+            else if (value === "No") value = 0;
+            
+
+            // male/female to 1/0
+
+            else if (value === "Male") value = 1;
+            else if (value === "Female") value = 0;
+            /// more to come here
+
+            //else value = +value; // convert to number
+
+            elementsArr.push(value);
             
         }
     }
+    
+
+
+
+    // Send data to Flask API for prediction
+    fetch('/predict', {
+    method: 'POST',
+    headers: {
+        'Content-Type': 'application/json',
+    },
+    body: JSON.stringify(elementsArr),
+    })
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Network response was not ok' + response.statusText);
+        }
+        return response.json();
+    })
+
+    .then(data => {
+        console.log('Success:', data);  // Handle success, update the UI with prediction data
+    })
+
+    .catch((error) => {
+        console.error('Error:', error);
+        // Handle errors here
+    });
+
     console.log(elementsArr)
-}
+};

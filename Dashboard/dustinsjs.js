@@ -3,7 +3,7 @@ MF = {"MaleFemale": ["Male","Female"]}
 BMI = {"BMI":['<18','18','20','22','24','26','28',
 '30','32','34','36','38','40','42','44','>44']}
 
-
+    // High Blood Pressure?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -11,6 +11,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // High Cholesterol?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -18,6 +19,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Colesterol checked?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -25,6 +27,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // BMI?
     for (i=0;i<BMI.BMI.length; i++){
         BMI.BMI[i]
 
@@ -32,6 +35,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", BMI.BMI[i]);
     }
 
+    // Smoke?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -39,6 +43,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Stroke?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -46,6 +51,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Diabetes?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -53,6 +59,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // physically active?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -60,6 +67,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Eat Fruits?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -67,6 +75,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Eat Vegetables?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -74,6 +83,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Drink Alcohol?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -81,6 +91,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Doctor checkup regularly?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -88,6 +99,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // not doctor because of cost?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -95,6 +107,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Walking difficulty?
     for (i=0;i<2; i++){
         TF.TrueFalse[i]
 
@@ -102,6 +115,7 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
+    // Sex?
     for (i=0;i<2; i++){
         MF.MaleFemale[i]
 
@@ -109,8 +123,21 @@ BMI = {"BMI":['<18','18','20','22','24','26','28',
         attr("value", MF.MaleFemale[i]);
     }
 
+    // Age?
+
+    for (i=0;i<120; i++){
+        d3.select("#selDataset16").append("option").text(i).
+        attr("value", i);
+    }
+
 
 var elements = document.querySelectorAll("[id^=selDataset]");
+
+
+// Handle changes differietieting between dropdowns
+elements.forEach(function(elem) {
+    elem.onchange = optionChanged;
+});
 
 function optionChanged(){
     var elementsArr = []

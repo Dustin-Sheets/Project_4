@@ -180,9 +180,9 @@ function submitData() {
         const prediction_percent = (predictionValue * 100);
 
         if (prediction_percent > 30) {
-            predictionBox.innerHTML = "Our model predicts that you are at risk of having a heart failure with a " + prediction_percent + "% " + " Please consult your doctor.";
+            predictionBox.innerHTML = "Our model predicts that you are at risk of having heart attack/failure with a " + prediction_percent + "% " + " Please consult your doctor.";
         } else {
-            predictionBox.innerHTML = "Our model predicts that you are not at risk of having heart failure with a " + prediction_percent + "% " + " . No immediate concerns, but consider regular checkups.";
+            predictionBox.innerHTML = "Our model predicts that you are not at risk of having heart attack/failure with a " + prediction_percent + "% " + " . No immediate concerns, but consider regular checkups.";
         }
     })
     .catch((error) => {

@@ -135,67 +135,56 @@ var elements = document.querySelectorAll("[id^=selDataset]");
 
 
 
+// ..
 
 
-
-
-// Handle changes differietieting between dropdowns
-elements.forEach(function(elem) {
-    elem.onchange = optionChanged;
-});
-
-
-function optionChanged(){
-    var elementsArr = []
-    if (elements.length > 0) {
-        for (let i = 0; i < elements.length; i++) {
-            const element = elements[i];
-            let value = element.value;
-            
-            // yes/no to 1/0
-            if (value === "Yes") value = 1;
-            else if (value === "No") value = 0;
-            
-
-            // male/female to 1/0
-
-            else if (value === "Male") value = 1;
-            else if (value === "Female") value = 0;
-            /// more to come here
-
-            //else value = +value; // convert to number
-
-            elementsArr.push(value);
-            
-        }
-    }
+function submitData() {
     
+    const elements = document.querySelectorAll("[id^=selDataset]");
 
+    // Get the values from the form elements
+    var elementsArr = [];
+    for (let i = 0; i < elements.length; i++) {
+        const element = elements[i];
+        let value = element.value;
+        
+        // Convert yes/no to 1/0 and male/female to 1/0
+        if (value === "Yes") value = 1;
+        else if (value === "No") value = 0;
+        else if (value === "Male") value = 1;
+        else if (value === "Female") value = 0;
+        else value = +value; // Convert to number if it's not a yes/no or male/female
 
+        elementsArr.push(value);
+    }
 
+    
     // Send data to Flask API for prediction
     fetch('/predict', {
-    method: 'POST',
-    headers: {
-        'Content-Type': 'application/json',
-    },
-    body: JSON.stringify(elementsArr),
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify([elementsArr]), // Ensure data is sent as a 2D array
     })
     .then(response => {
         if (!response.ok) {
-            throw new Error('Network response was not ok' + response.statusText);
+            throw new Error('Network response was not ok: ' + response.statusText);
         }
         return response.json();
     })
-
     .then(data => {
-        console.log('Success:', data);  // Handle success, update the UI with prediction data
+        console.log('Success:', data.prediction);  // Log the prediction data
     })
-
     .catch((error) => {
         console.error('Error:', error);
-        // Handle errors here
     });
+}
 
-    console.log(elementsArr)
-};
+// Attach the `submitData` function to the click event of the submit button
+document.getElementById("submitBtn").addEventListener("click", function(event) {
+    event.preventDefault(); // Prevent the default form submission
+    submitData();
+});
+
+// ...

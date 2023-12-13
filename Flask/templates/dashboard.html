@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="en">
+
+
+  <head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>CardioGuard: Intelligent Analytics for Heart Disease Prevention</title>
+      <link rel="stylesheet" href="../static/css/style.css">
+
+  </head>
+
+
+
+  <body style="background-color:powderblue;">
+
+
+
+    <div class="header">
+      <img src="../static/images/human_heart.png" alt="logo" /> 
+      <!--<img src="https://newsinhealth.nih.gov/sites/nihNIH/files/styles/featured_media_breakpoint-large/public/2021/August/aug-2021-capsule2-drawing-heart.jpg?itok=A3dTXb5H" alt="logo" /> -->
+      <h1>  CardioGuard: Intelligent Analytics for Heart Disease Prevention</h1>
+    </div>
+
+
+
+    <main>
+      <div class="card">
+        <h2>Heart Disease: The Silent Killer</h2>
+        <p>Heart disease is among the leading causes of Death in the United States amongst Men, Women, and most Ethinc groups. On average one person dies from a cardiovascular related disease every 33 seconds in the United States. <span id="****"></span></p>
+        <h2>Heart Disease in the South.</h2>
+        <p>While heart diease runs rampant in the United States as a whole, it is most common in the South. On average, the Southern-most states are at a higher risk of high blood pressure, high cholesterol, and diabetes than the rest of the United States. We can contribute the increased risk to factors such as smoking, poor diet, lack of exercise, and obesity.<span id="****"></span></p>
+        <h2>The different types of heart disease</h2>
+        <img src= "../static/images/Cardiovascular-Disease.png"alt="Dashboard Image">
+        <ul>
+          <h4>Coronary Artery Disease</h4>
+            <p>Coronary Artery Diseas is when fat deposits, also known as plaque, buildup in the walls of arteries that supply blood to the heart. Over time, this causes the arteries to narrow limiting the flow of blood to the heart.</p>
+          <h4>Valve Disease</h4>
+            <p>Heart Valve Disease is when one or more of your heart valves do not work well. Some people are born with heart valve disease as a congential heart defect, however others deveop it over time.</p>
+          <h4>Aneurysm</h4>
+            <p>An Aortic Aneurysm is a buldge the aorta. If the aneurysm ruptures, it can cause the walls of the artery to split allowing blood to leak in between them. One of the main causese of an aneurysm is the narrowing of the arteries resulting from coronary artery disease.</p>
+          <h4>Cardiac Arrhythmia</h4>
+            <p> Cardiac Arrhythmia occurs when the electrical signals that tell the heart to beat do not work. Some of the main causes of it are coronary artery diease, high blood pressure, and valve disorders</p>
+          <h4>Cardiomyopathy</h4>
+            <p>Cardiomyopathy is when the heart muscles make it harder for the heart to pump blood to the rest of the body. Like the other diseases, the main cause is coronary artery disease. Life style also plays a big role in developing the disease.  </p>
+          <h4>Pericarditis</h4>
+            <p>Pericarditis is the swelling and irritation of the thin tissue surrounding the heart. Chronic illnesses such as lupus and rheumatoid arthritis are the leading cause.</p>
+          <h4>Heart Failure</h4>
+            <p>Heart Failure is when your heart does not pump enough blood to supply your body's needs. Coronary disease, high blood pressure, and valve diseas are among the leading causes of heart failure.</p>
+        </ul>
+        
+        </div>
+      
+    </main>
+  
+    
+    
+    <div class="userInput"> 
+        
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have high blood pressure?</h5>
+            <select id="selDataset1" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have high cholesterol?</h5>
+            <select id="selDataset2" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you had your cholesterol checked?</h5>
+            <select id="selDataset3" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What is your BMI?</h5>
+            <select id="selDataset4" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you smoke?</h5>
+            <select id="selDataset5" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you ever had a stroke?</h5>
+            <select id="selDataset6" ></select>
+          </div>
+        </div>
+      </div>
+    
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have diabetes?</h5>
+            <select id="selDataset7" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Are you physicaly active?</h5>
+            <select id="selDataset8" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you regularly eat fruits?</h5>
+            <select id="selDataset9" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you regularly eat vegetables?</h5>
+            <select id="selDataset10" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you drink alcohol?</h5>
+            <select id="selDataset11" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you get checkups from a doctor regularly?</h5>
+            <select id="selDataset12" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Have you ever not seen a doctor because of cost?</h5>
+            <select id="selDataset13" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>Do you have difficulty walking?</h5>
+            <select id="selDataset14" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What sex are you?</h5>
+            <select id="selDataset15" ></select>
+          </div>
+        </div>
+      </div>
+
+      <div class='inline-block'>
+        <div class="col-md-2">
+          <div class="well">
+            <h5>What is your age?</h5>
+            <input type="number" id="selDataset16" name="userAge" min="0" max="120" >
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <button id="submitBtn" type="button">Submit</button>
+    
+    
+ 
+
+    <main>
+      <div class="card">
+        <h2>Stats</h2>
+        <p>***** <span id="****"></span></p>
+        <p>***** <span id="****"></span></p>
+      </div>
+
+      <div class="card">
+        <h2>********</h2>
+        </ul>
+      </div>
+
+      <div data-cdc-widget="CountyMapsTemplate" data-instance-name="HeartDiseaseAndStroke" data-default-state="Alabama" data-default-dataset="Heart Disease"></div>
+      <script src="https://tools.cdc.gov/1M1B"></script>
+    </main>
+  
+
+
+
+  </body>
+        
+        
+
+  
+  <script src="https://d3js.org/d3.v7.min.js"></script>
+  <script src="../static/dustinsjs.js"></script>
+    
+        
+</html>

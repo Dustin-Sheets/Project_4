@@ -36,7 +36,13 @@ Plotly
 ## Limitations
 
 ## Conclusion
-
+- Heart diseas is the leading cause of death in the United States and has multiple risk factors. The most common of which are:
+  - Hypertension
+  - Obesity
+  - Diabetes
+  - High Total Cholesterol
+- It is also important to notice how different races and ethnicities are affected heart disease.
+  - Non-Hispanic blacks adults are more likely to die from heart disease.
 ## References
 - [Heart Disease Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset/data)
 - [human heart logo](https://similarpng.com/realistic-human-heart-on-transparent-background-png/#getdownload)

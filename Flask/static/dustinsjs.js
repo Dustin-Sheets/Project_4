@@ -175,6 +175,15 @@ function submitData() {
     })
     .then(data => {
         console.log('Success:', data.prediction);  // Log the prediction data
+        const predictionBox = document.getElementById("predictionBox");
+        const predictionValue = data.prediction[0];
+        const prediction_percent = (predictionValue * 100);
+
+        if (prediction_percent > 30) {
+            predictionBox.innerHTML = "Our model predicts that you are at risk of having a stroke with a " + prediction_percent + "% " + " Please consult your doctor.";
+        } else {
+            predictionBox.innerHTML = "Our model predicts that you are not at risk of having a stroke with a " + prediction_percent + "% " + " . No immediate concerns, but consider regular checkups.";
+        }
     })
     .catch((error) => {
         console.error('Error:', error);
@@ -187,4 +196,4 @@ document.getElementById("submitBtn").addEventListener("click", function(event) {
     submitData();
 });
 
-// ...
+// ...add another box! with the message "Your prediction is: " + prediction

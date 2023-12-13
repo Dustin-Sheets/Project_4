@@ -26,6 +26,8 @@ Plotly
 ## Conclusion
 
 ## References
+[human heart logo]()
+[Cardiovascular Disease Image](https://www.udmi.net/cardiovascular-disease-risk/)
 
 ## Team Members/Tasks:
 

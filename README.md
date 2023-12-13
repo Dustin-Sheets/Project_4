@@ -7,9 +7,21 @@ Heart disease is the leading cause of mortality worldwide. Our project aims to l
 
 ### Datasets, APIs, and Libraries:
 
-Datasets:
+**Datasets**
+- Using a "heart disease health indicator" dataset, we analyzed the following 22 columns and how each could be an indicator of being at risk of suffering heart disease.
+  
+<img width="234" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/cd98da8a-5272-4781-9373-b92584575bec">
 
-Heart Disease Health Indicators Dataset - Kaggle
+- We determined that the columns `GenHlth`,`MentHlth`,`PhysHlth`,`Income`, and `Education` were not an at risk factor and were therefore dropped.
+- The following columns were used when compailing, training, and evaluating the machine learning model used to predict heart disease risk.
+  
+  <img width="214" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/d1516d4a-7386-4b80-b681-29601d7553c4">
+  
+  
+
+
+
+
 
 APIs:
 
@@ -26,30 +38,30 @@ Plotly
 ## Conclusion
 
 ## References
-[human heart logo]()
-[Cardiovascular Disease Image](https://www.udmi.net/cardiovascular-disease-risk/)
+- [Heart Disease Health Indicators Dataset](https://www.kaggle.com/datasets/alexteboul/heart-disease-health-indicators-dataset/data)
+- [human heart logo](https://similarpng.com/realistic-human-heart-on-transparent-background-png/#getdownload)
+- [Cardiovascular Disease Image](https://www.udmi.net/cardiovascular-disease-risk/)
 
 ## Team Members/Tasks:
+- Dustin
+  - HTML/CSS
+  - Data Gathering/Manipulation
+  - Machine Learning
+  - Javascript
 
-Dustin
-- HTML/CSS
-- Data Gathering/Manipulation
-- Machine Learning
-- Javascript
+- Arnold
+  - Flask API Integration
+  - Machine Learning
 
-Arnold
-- Flask API Integration
-- Machine Learning
-
-Juliana
-- HTML
-- Data Gathering/Manipulation
-- Dashboard
+- Juliana
+  - HTML
+  - Data Gathering/Manipulation
+  - Dashboard
+    
+- Maria
+  - CSS
+  - Dashboard
   
-Maria
-- CSS
-- Dashboard
-  
-Gabriella
-- Data Cleaning
-- Data Visualization 
+- Gabriella
+  - Data Cleaning
+  - Data Visualization 

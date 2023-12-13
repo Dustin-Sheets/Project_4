@@ -149,10 +149,10 @@ function submitData() {
         let value = element.value;
         
         // Convert yes/no to 1/0 and male/female to 1/0
-        if (value === "Yes") value = 1;
-        else if (value === "No") value = 0;
-        else if (value === "Male") value = 1;
-        else if (value === "Female") value = 0;
+        if (value === "Yes") value = 0;
+        else if (value === "No") value = 1;
+        else if (value === "Male") value = 0;
+        else if (value === "Female") value = 1;
         else value = +value; // Convert to number if it's not a yes/no or male/female
 
         elementsArr.push(value);

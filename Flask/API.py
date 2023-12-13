@@ -1,17 +1,29 @@
 import os
+import joblib
 from flask import Flask, render_template, request, jsonify
+from tensorflow import keras
 import tensorflow as tf
+
 import numpy as np
 
 
 
 app = Flask(__name__)
 
-# Load trained model
-current_dir = os.path.dirname(os.path.realpath(__file__))
+############ now use xgboost model
 
+# Load Scaled and  Trained model
+current_dir = os.path.dirname(os.path.realpath(__file__))
+scaler_path = os.path.join(current_dir, '..','Machine_learning_prediction','Models','scaler_model.save')
 model_path = os.path.join(current_dir, '..','Machine_learning_prediction','Models','Heart_Disease_Pred.h5')
+
+scaler = joblib.load(scaler_path)
 model = tf.keras.models.load_model(model_path)
+
+
+def predict_heart_disease(model, new_data):
+    prediction = model.predict(new_data)
+    return prediction.tolist()
 
 
 
@@ -36,26 +48,29 @@ def predict():
         data = np.array(data)
 
         # Check the shape of the data
-        if data.shape[1] != 16:  # Assuming the model expects 16 features
+        if data.shape[1] != 16: 
             raise ValueError("Each data sample should contain 16 features.")
         
+        
+        # Scale input data
+        new_data_scaled = scaler.transform(data)
+
         # Make a prediction
-        prediction = model.predict(data)
+        data_prediction = predict_heart_disease(model, new_data_scaled)
 
         # Convert the prediction to a useful format
-        response = {
-            'prediction': prediction.tolist()
-        }
+        #response = {
+       #     'prediction': data_prediction.tolist()
+        #}
         
         # Return the response as JSON
-        return jsonify(response), 200
+        return jsonify({'prediction': data_prediction}), 200
     
 
+    except ValueError as ve:
+        return jsonify({'error': str(ve)}), 400
     except Exception as e:
-        
         return jsonify({'error': str(e)}), 500
-
-
 
 
 if __name__ == '__main__':

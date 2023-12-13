@@ -42,10 +42,9 @@
         }
       </style>
     </head>
-
-
-
-  <body style="background-color:powderblue;">
+    
+    
+    <body style="background-color:powderblue;">
 
 
 
@@ -85,12 +84,14 @@
             <h4>Heart Failure</h4>
               <p>Heart Failure is when your heart does not pump enough blood to supply your body's needs. Coronary disease, high blood pressure, and valve diseas are among the leading causes of heart failure.</p>
           </ul>
-          <div data-cdc-widget="CountyMapsTemplate" data-instance-name="HeartDiseaseAndStroke" data-default-state="Alabama" data-default-dataset="Heart Disease"></div>
-          <script src="https://tools.cdc.gov/1M1B"></script>
+          
         </main>
-      </body>
       
-        
+      
+      <div data-cdc-widget="CountyMapsTemplate" data-instance-name="HeartDiseaseAndStroke" data-default-state="Alabama" data-default-dataset="Heart Disease"></div>
+      <script src="https://tools.cdc.gov/1M1B"></script>
+
+
         </div>
       </div>
       
@@ -247,34 +248,31 @@
     </div>
 
     <button id="submitBtn" type="button">Submit</button>
-    
-  </div>
-</div>
+  
+  </div></div>
+  
+  
+  <script>
+  function openTab(tabName) 
+  {
+    var i, tabContent, tabLinks;
+    tabContent = document.getElementsByClassName("tab-content");
+    for (i = 0; i < tabContent.length; i++) {
+      tabContent[i].style.display = "none";
+    }
+    tabLinks = document.getElementsByClassName("tab");
+    for (i = 0; i < tabLinks.length; i++) {
+      tabLinks[i].classList.remove("active");
+    }
+    document.getElementById(tabName).style.display = "block";
+    event.currentTarget.classList.add("active");
+  }
+  </script>
 
 
-      <script>
-        function openTab(tabName) {
-          var i, tabContent, tabLinks;
-          tabContent = document.getElementsByClassName("tab-content");
-          for (i = 0; i < tabContent.length; i++) {
-            tabContent[i].style.display = "none";
-          }
-          tabLinks = document.getElementsByClassName("tab");
-          for (i = 0; i < tabLinks.length; i++) {
-            tabLinks[i].classList.remove("active");
-          }
-          document.getElementById(tabName).style.display = "block";
-          event.currentTarget.classList.add("active");
-        }
-      </script>
-    
-    </body>
-        
-        
-
+  </body>
   
   <script src="https://d3js.org/d3.v7.min.js"></script>
   <script src="../static/dustinsjs.js"></script>
-    
-        
+  
 </html>

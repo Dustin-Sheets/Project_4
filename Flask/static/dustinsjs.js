@@ -52,11 +52,9 @@ BMI = {"BMI":['18','20','22','24','26','28',
     }
 
     // Diabetes?
-    for (i=0;i<2; i++){
-        TF.TrueFalse[i]
-
-        d3.select("#selDataset7").append("option").text(TF.TrueFalse[i]).
-        attr("value", TF.TrueFalse[i]);
+    const diabetesCategories = ["No or during pregnancy", "Pre-diabetes or borderline diabetes", "Yes diabetes"];
+    for (let i = 0; i < diabetesCategories.length; i++) {
+        d3.select("#selDataset7").append("option").text(diabetesCategories[i]).attr("value", i);
     }
 
     // physically active?
@@ -99,13 +97,6 @@ BMI = {"BMI":['18','20','22','24','26','28',
         attr("value", TF.TrueFalse[i]);
     }
 
-    // not doctor because of cost?
-    for (i=0;i<2; i++){
-        TF.TrueFalse[i]
-
-        d3.select("#selDataset13").append("option").text(TF.TrueFalse[i]).
-        attr("value", TF.TrueFalse[i]);
-    }
 
     // Walking difficulty?
     for (i=0;i<2; i++){
@@ -138,8 +129,19 @@ var elements = document.querySelectorAll("[id^=selDataset]");
 // ..
 
 
+
+
+
 function submitData() {
     
+
+    // Define a mapping for the Diabetes variable
+    const diabetesMap = {
+        "No or during pregnancy": 0,
+        "Pre-diabetes or borderline diabetes": 1,
+        "Yes diabetes": 2
+    };
+
     const elements = document.querySelectorAll("[id^=selDataset]");
 
     // Get the values from the form elements
@@ -148,14 +150,30 @@ function submitData() {
         const element = elements[i];
         let value = element.value;
         
-        // Convert yes/no to 1/0 and male/female to 1/0
-        if (value === "Yes") value = 0;
-        else if (value === "No") value = 1;
-        else if (value === "Male") value = 0;
-        else if (value === "Female") value = 1;
-        else value = +value; // Convert to number if it's not a yes/no or male/female
+
+
+
+        if (element.id === "selDataset7") {
+            value = +value; // Map the value using the diabetesMap
+        
+        } else 
+        {
+            // Convert yes/no to 1/0 and male/female to 1/0
+            if (value === "Yes") value = 1;
+            else if (value === "No") value = 0;
+            else if (value === "Male") value = 1;
+            else if (value === "Female") value = 0;
+            else value = +value; // Convert to number if it's not a yes/no or male/female
+        }
+        
+       
 
         elementsArr.push(value);
+
+
+
+        // Log the JSON payload being sent to the Flask API
+        console.log('Request Payload:', JSON.stringify([elementsArr]));
     }
 
     
@@ -177,9 +195,9 @@ function submitData() {
         console.log('Success:', data.prediction);  // Log the prediction data
         const predictionBox = document.getElementById("predictionBox");
         const predictionValue = data.prediction[0];
-        const prediction_percent = (predictionValue * 100);
+        const prediction_percent = (predictionValue * 100).toFixed(2);
 
-        if (prediction_percent > 30) {
+        if (prediction_percent > 40) {
             predictionBox.innerHTML = "Our model predicts that you are at risk of having heart attack/failure with a " + prediction_percent + "% " + " Please consult your doctor.";
         } else {
             predictionBox.innerHTML = "Our model predicts that you are not at risk of having heart attack/failure with a " + prediction_percent + "% " + " . No immediate concerns, but consider regular checkups.";
@@ -196,4 +214,3 @@ document.getElementById("submitBtn").addEventListener("click", function(event) {
     submitData();
 });
 
-// ...add another box! with the message "Your prediction is: " + prediction

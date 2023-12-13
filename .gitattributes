@@ -1,0 +1,2 @@
+path/to/large/file filter=lfs diff=lfs merge=lfs -text
+Machine_learning_prediction/Models/random_forest_resampled_model.pkl filter=lfs diff=lfs merge=lfs -text

@@ -20,21 +20,20 @@ Heart disease is the leading cause of mortality worldwide. Our project aims to l
   
   <img width="214" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/d1516d4a-7386-4b80-b681-29601d7553c4">
   
-  
+
+**Libraries:**
+<img width="250" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/16c47b20-4ebd-4260-9ebe-97b1af85ff6a">
 
 
+  - Chart JS
 
-
-
-APIs:
-
-Libraries:
-
-Chart JS
-
-Plotly
+  - Plotly
 
 ## Results
+- After answering some health and lifestyle questions, CardioGaurd calculates the user's risk of heart disease and/or stroke and makes some recommendations based on that percent risk.
+
+<img width="461" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/b6a56a04-7c95-4b07-bb1a-93432c167cbd">
+
 
 ## Limitations
 - Our model does not take into account all social factors that could affect a person's stroke risk. We excluded income and education, but it iis important to note that people with better access to education have the opportunity to earn more income. More income can possibly mean better access to quality healthcare. 

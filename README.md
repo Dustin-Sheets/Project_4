@@ -1,3 +1,6 @@
+#How to run
+##Run API.py in the flask folder to open dashboard
+
 ![image](https://github.com/Dustin-Sheets/Project_4/assets/137246036/9dd96652-0b77-4726-88de-647413c012f5)
 
 # CardioGuard: Intelligent Analytics for Heart Disease Prevention

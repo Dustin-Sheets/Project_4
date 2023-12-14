@@ -1,5 +1,4 @@
-#How to run
-##Run API.py in the flask folder to open dashboard
+
 
 ![image](https://github.com/Dustin-Sheets/Project_4/assets/137246036/9dd96652-0b77-4726-88de-647413c012f5)
 
@@ -22,12 +21,18 @@ Heart disease is the leading cause of mortality worldwide. Our project aims to l
   
 
 **Libraries:**
+
 <img width="250" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/16c47b20-4ebd-4260-9ebe-97b1af85ff6a">
 
 
   - Chart JS
 
   - Plotly
+    
+**To Run Flask **
+
+<img width="314" alt="image" src="https://github.com/Dustin-Sheets/Project_4/assets/136658866/b649015a-f924-4ffd-8ff4-289447ee91ce">
+
 
 ## Results
 - After answering some health and lifestyle questions, CardioGaurd calculates the user's risk of heart disease and/or stroke and makes some recommendations based on that percent risk.
